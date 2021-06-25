@@ -2996,6 +2996,13 @@ expo-keep-awake@~9.1.2:
   resolved "https://registry.yarnpkg.com/expo-keep-awake/-/expo-keep-awake-9.1.2.tgz#b3e52c7bef0ade975ae88637a2bf980f6b573368"
   integrity sha512-CCuEOQUNLYtMA0rt0sQ9u5LlIMH7lDJG7dImoorfKMsP95yHXy8dl3oCdtaz2zbsPgggVYeom9gE+gQu+Ki4rQ==
 
+expo-localization@~10.1.0:
+  version "10.1.0"
+  resolved "https://registry.yarnpkg.com/expo-localization/-/expo-localization-10.1.0.tgz#4371fa6c092c4e86edfabff504313710d99b28ef"
+  integrity sha512-covyQ1YJneUBvjkNp0p8Lp7ej5Plz1OpJiwA2P6O3hZ4yVVqNDOOAb2WADLARPtxNJrDdntSozgI+JSz/yQxmQ==
+  dependencies:
+    rtl-detect "^1.0.2"
+
 expo-status-bar@~1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/expo-status-bar/-/expo-status-bar-1.0.4.tgz#d8a4c4418b5868c1606969b12bdee85b6fa7d8a4"
@@ -3468,6 +3475,11 @@ hyphenate-style-name@^1.0.2, hyphenate-style-name@^1.0.3:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/hyphenate-style-name/-/hyphenate-style-name-1.0.4.tgz#691879af8e220aea5750e8827db4ef62a54e361d"
   integrity sha512-ygGZLjmXfPHj+ZWh6LwbC37l43MhfztxetbFCoYTM2VjkIUpeHgSNn7QIyVFj7YQ1Wl9Cbw5sholVJPzWvC2MQ==
+
+i18n-js@^3.8.0:
+  version "3.8.0"
+  resolved "https://registry.yarnpkg.com/i18n-js/-/i18n-js-3.8.0.tgz#b8fd6b12e1d88cb71f9806c29bca7c31c012e504"
+  integrity sha512-hDsGgPuvw/2P+lXSbOafAwspK8Ste8YrwuuUg17W3wEcO1JkQxBlPgsN1t2+852nTnz4YSYTjZc/1nAA2PC/nw==
 
 iconv-lite@^0.4.17:
   version "0.4.24"
@@ -4034,6 +4046,11 @@ lodash.isstring@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/lodash.isstring/-/lodash.isstring-4.0.1.tgz#d527dfb5456eca7cc9bb95d5daeaf88ba54a5451"
   integrity sha1-1SfftUVuynzJu5XV2ur4i6VKVFE=
+
+lodash.memoize@^4.1.2:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
+  integrity sha1-vMbEmkKihA7Zl/Mj6tpezRguC/4=
 
 lodash.omit@^4.5.0:
   version "4.5.0"
@@ -5250,6 +5267,11 @@ rsvp@^4.8.4:
   version "4.8.5"
   resolved "https://registry.yarnpkg.com/rsvp/-/rsvp-4.8.5.tgz#c8f155311d167f68f21e168df71ec5b083113734"
   integrity sha512-nfMOlASu9OnRJo1mbEk2cz0D56a1MBNrJ7orjRZQG10XDyuvwksKbuXNp6qa+kbn839HwjwhBzhFmdsaEAfauA==
+
+rtl-detect@^1.0.2:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/rtl-detect/-/rtl-detect-1.0.3.tgz#42145b9a4f9cf0b94c4542aba90d57f0d18559bf"
+  integrity sha512-2sMcZO60tL9YDEFe24gqddg3hJ+xSmJFN8IExcQUxeHxQzydQrN6GHPL+yAWgzItXSI7es53hcZC9pJneuZDKA==
 
 run-async@^2.2.0:
   version "2.4.1"
