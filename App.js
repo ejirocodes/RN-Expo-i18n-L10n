@@ -14,12 +14,10 @@ export default function App() {
     Alert.alert(`${i18n.t('signoutBtn')}`, `${i18n.t('signOutAlertMess')}`, [
       {
         text: `${i18n.t('signOutAlertTitle')}`,
-        onPress: () => console.log('Cancel Pressed'),
         style: 'cancel',
       },
       {
         text: `${i18n.t('confirm')}`,
-        onPress: () => console.log('OK Pressed'),
       },
     ]);
   };
