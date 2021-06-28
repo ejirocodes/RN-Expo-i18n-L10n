@@ -16,7 +16,7 @@ const zh = {
   resetBtn: '重设密码',
 };
 
-export const es = {
+const es = {
   welcome: 'Internacionalización y localización en React Native',
   signoutBtn: 'desconectar',
   signOutAlertTitle: 'Cancelar',
@@ -26,4 +26,4 @@ export const es = {
   resetBtn: 'Restablecer la contraseña',
 };
 
-export { zh, en };
+export { zh, en, es };
